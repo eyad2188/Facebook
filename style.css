@@ -4,18 +4,36 @@
     text-align: center;
     color: rgb(0, 119, 255);
 }
-div { text-align: center;}
+div { text-align: center;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    right: 100;
+    bottom: 100;
+}
 .colorStyle{
     text-align: right;
-    background-color: rgba(236, 236, 236, 0.911);
+    background-color: rgba(27, 25, 25, 0.013);
     font-size: 22px;
     height: 40px;
     color:gray ;
     border:0 ;
-    margin: 3px
-    ;
+    margin: 3px;
     
     
+}
+
+#ee ul:hover{
+    background-color: blue;}
+ul, li{
+    
+    color:grey;
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    list-style-type: none;
+    margin:0 0 0 4px;
+    display:inline;
 }
 #style3{background-color: rgba(0, 68, 255, 0.911);
 font-size: 20px;
