@@ -1,7 +1,7 @@
 body{
 padding: 0%;
 margin: 0%;
-background-color: rgb(22, 27, 22);
+background-color: rgb(43 43 43);
 }
 #style0 {    
     font-size: 30px;
@@ -18,15 +18,15 @@ div { text-align: center;
     bottom: 100;
     width: 450px;
     height: 290px;
-    border: 2px solid white;
-    background-color:white;
+    border: 2px solid rgba(255, 255, 255, 0.267);
+    background-color:#362f5400;
 }
 .colorStyle{
     text-align: right;
-    background-color: rgba(221, 201, 201, 0.596);
+    background-color: rgb(221 201 201 / 15%);
     font-size: 22px;
     height: 40px;
-    color:gray ;
+    color:rgba(26, 24, 24, 0.027) ;
     border:0 ;
     margin: 3px;
     
@@ -57,3 +57,4 @@ ul :hover{
     background-color: dodgerblue;
     text-decoration: underline;
     }
+
