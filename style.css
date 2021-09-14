@@ -1,8 +1,14 @@
-
+body{
+padding: 0%;
+margin: 0%;
+background-color: rgb(22, 27, 22);
+}
 #style0 {    
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    color: rgb(0, 119, 255);
+    color:rgba(0, 68, 255, 0.911);
+    position: relative;
+    top: 25px;
 }
 div { text-align: center;
     position: absolute;
@@ -10,10 +16,14 @@ div { text-align: center;
     top: 150px;
     right: 100;
     bottom: 100;
+    width: 450px;
+    height: 290px;
+    border: 2px solid white;
+    background-color:white;
 }
 .colorStyle{
     text-align: right;
-    background-color: rgba(27, 25, 25, 0.013);
+    background-color: rgba(221, 201, 201, 0.596);
     font-size: 22px;
     height: 40px;
     color:gray ;
@@ -22,24 +32,28 @@ div { text-align: center;
     
     
 }
-
-#ee ul:hover{
-    background-color: blue;}
+#stylelogin {background-color: rgba(0, 68, 255, 0.911);
+    font-size: 20px;
+    width: 437px;
+    height: 40px;
+    color:white;
+    border:0 ;
+    margin:7px;
+    }
 ul, li{
     
-    color:grey;
+    color: rgba(0, 68, 255, 0.911);
     font-size: 30px;
-    position: relative;
-    left: 200px;
     list-style-type: none;
-    margin:0 0 0 4px;
+    margin:0px 0px 0px 40px;
     display:inline;
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-wrap: wrap;
 }
-#style3{background-color: rgba(0, 68, 255, 0.911);
-font-size: 20px;
-width: 437px;
-height: 40px;
-color:white;
-border:0 ;
-margin:7px;
-}
+ul :hover{
+    border-radius: 35px;
+    background-color: dodgerblue;
+    text-decoration: underline;
+    }
