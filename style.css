@@ -3,11 +3,31 @@ padding: 0%;
 margin: 0%;
 background-color: rgb(43 43 43);
 }
-#style0 {    
+@media(max-width:360px){
+    h1 {    
+        font-size: 30px;
+        text-align: center;
+        color:rgba(0, 68, 255, 0.911);
+        position: relative;
+        left: 185px;
+        top: 25px;
+    }
+}
+@media(max-width:1300px){
+        h1 {    
+            font-size: 30px;
+            text-align: center;
+            color:rgba(0, 68, 255, 0.911);
+            position: relative;
+            left: 100px;
+            top: 25px;} 
+}
+h1 {    
     font-size: 30px;
     text-align: center;
     color:rgba(0, 68, 255, 0.911);
     position: relative;
+    left: 40px;
     top: 25px;
 }
 div { text-align: center;
@@ -24,7 +44,7 @@ div { text-align: center;
 .colorStyle{
     text-align: right;
     background-color: rgb(221 201 201 / 15%);
-    font-size: 22px;
+    font-size: 24px;
     height: 40px;
     color:rgba(26, 24, 24, 0.027) ;
     border:0 ;
